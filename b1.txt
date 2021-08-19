@@ -1,0 +1,37 @@
+MMT: Các máy tính trao đổi thông tin vs nhau.
+
+PAN: personal area network
+
+LAN: local area network
+
+MAN: metropolitan area network
+
+WAN: wide area network
+
+7 lớp OSI:
+
+- Physical layer
+- Data link layer
+- Network layer
+- Transport layer
+- Session layer
+- Presentation layer
+- Application layer
+
+TCP/IP:
+
+- Network access
+  - PHY
+  - Medium access control
+  - Logical link control
+- Internetwork
+- Host-to-host
+- Application
+
+Đơn vị dữ liệu được sử dụng trong các tầng bao gồm
+
+- Thông tin điều khiển giao thức PCI (Protocol Control Information): Thông tin được thêm vào đầu các gói tin trong quá trình hoạt động truyền thông của các thực thể. Ký hiệu N\_PCI là thông tin điều khiển tầng N.
+
+- Đơn vị dữ liệu dịch vụ SDU (Service Data Unit): Là đơn vị dữ liệu truyền thông giữa các tầng kề nhau. Ký hiệu N\_SDU là đơn vị dữ liệu truyền từ tầng (N+1) xuống tầng N chưa thêm thông tin điều khiển.
+
+- Đơn vị dữ liệu giao thưc PDU (Protocol Data Unit) : Đơn vị dữ liệu giao thức tầng. Ký hiệu PDU = PCI + SDU, nghĩa là đơn vị dữ liệu giao thức bao gồm thông tin điều khiển PCI được thêm vào đầu đơn vị dữ liệu dịch vụ SDU.
