@@ -2,6 +2,9 @@
 ## 1. Computer Network overview
   
 -Personal Area Network (PAN) is the smallest and the most basic type of network. A PAN is usually made up of a wireless modem, one or several computers, phones, tablets, etc., and resolves around one person in one building. This type of network is typically found in small offices or residences, managed by one person or organization from a single device.
+
 -Local Area Network (LAN) is one of the most common and simple type of network. LANs connects groups of computers and devices together across short distances, for example within a building or a group of two, three buildings in close proximity, in order to share information and resources. Enterprises typically manage and maintain LANs.
+
 -Metropolitan Area Network (MAN) is a type of network which is larger than LAN but smaller than WAN, incorporating elements from both types of networks. MANs span an entire geographic area (typically a town or city). Ownership and maintenance is handled by either a singal person or company.
+
 -Wide Area Network (WAN) connects computers together across longer physical distances, allowing computers and devices to be remotely interconnected over one large network. The Internet is the most basic example of WAN, connecting all computers together around the globe. Due to WAN's vast reach, it is maintained by multiple administrators or the public over one large network.
