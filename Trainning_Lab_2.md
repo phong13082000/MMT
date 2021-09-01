@@ -7,8 +7,8 @@
 
   + This means the following: In computer networks today information is generally transmitted in the form of bit or symbol sequences. In copper cables and radio transmission, however, are modulated high frequency electromagnetic waves, the information carrier, in the optical waveguide light waves of a certain wavelength or different. The information carrier know no bit strings, but can take a lot more different states than just 0 or 1. For each type of transmission must therefore encoding are defined. That is due to the specification of the physical layer of a network.
 
-  Typical hardware on this layer: repeaters, hubs, cables, plugs,...
-### b. Service
+  + Typical hardware on this layer: repeaters, hubs, cables, plugs,...
+### b. Services
   + Bit-by-bit or symbol-by-symbol delivery
   + Modulation
   + Line coding
@@ -18,6 +18,30 @@
   + Multiplexing
   + Carrier sense and collision detection
   + Physical network topology, like bus, ring, mesh or star network
+  + ...
+## 2. Data link layer
+### a. Overview
+  + MAC; VLAN; Encapsulation into frames
   
+  + The object of the data link layer (also section link layer, connection level, procedure level) is to ensure a reliable, that is largely error-free transmission and to control access to the transmission medium. The purpose of dividing the Bitdatenstromes in blocks - as frames or frame designated - and the addition of checksums as part of the channel coding. So bad blocks are detected by the receiver and either discarded or even corrected; a renewed request discarded blocks sees this layer but not before.
   
+  + A "flow control" makes it possible that a receiver dynamically controls the speed with which the other side must send blocks. The international engineering organization IEEE saw the need to regulate for local networks also competing access to a transmission medium, which is not foreseen in the OSI model.
   
+  + Common hardware on this layer: Bridge, Switch (Multiport bridge)
+### b. Services
+  + Encapsulation
+  + Frame synchronization
+  + Logical link control (Error & Flow control)
+  + Media access control (MAC, LAN switching, Physical addressing, QaS, VLAN, ...)
+  
+## 3. Network layer
+### a. Overview
+  + IPv4/v6; RIP; QoS
+
+  + The network layer (also packet level) provides a defined benefit services for switching connections and packet-oriented services for the relaying of data packets. The data transmission in both cases will go over the entire communication network and includes the route search (routing) between the network nodes. Because not always a direct communication between the sender and the target is possible, packets must be forwarded by nodes that are on the way. Next mediated packets do not reach the higher layers, but are provided with a new intermediate target and sent to the next node.
+
+  + The main tasks of the network layer is one of providing cross-network addresses, the routing and the construction and updating of routing tables and the fragmentation of data packets. But the negotiation and ensure a certain quality of service falls within the remit of the network layer.
+### b. Services
+  + Connection model
+  + Host addressing
+  + Message forwarding
